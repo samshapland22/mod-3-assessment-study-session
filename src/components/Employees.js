@@ -37,8 +37,8 @@ class Employees extends React.Component {
     });
   };
 
-  //ROHAN'S WAY OF SETTING THE ENTIRE EMPLOYEE OBJECT IN STATE USING ITS INDEX IN THE ARRAY
-  //THANKS FOR THE SUGGESTION ROHAN!
+  //ROHAN'S WAY OF SETTING THE ENTIRE EMPLOYEE OBJECT IN STATE USING ITS INDEX IN THE ARRAY:
+  //THANKS FOR THE SUGGESTION ROHAN :)
   // handleDropdownChange = (event) => {
   //   this.setState({
   //     currentEmployee: this.state.employees[event.target.value],
@@ -46,8 +46,8 @@ class Employees extends React.Component {
   // };
 
   render() {
-    //ROHAN'S WAY OF SETTING THE ENTIRE EMPLOYEE OBJECT IN STATE USING ITS INDEX IN THE ARRAY
-    //THANKS FOR THE SUGGESTION ROHAN!
+    //ROHAN'S WAY OF SETTING THE ENTIRE EMPLOYEE OBJECT IN STATE USING ITS INDEX IN THE ARRAY:
+    //THANKS FOR THE SUGGESTION ROHAN :)
     // let dropDownOptions = this.state.employees.map((employee, i) => {
     //   return <option value={i}>{employee.firstName}</option>;
     // });
