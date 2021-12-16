@@ -41,7 +41,7 @@ class Employees extends React.Component {
   //THANKS FOR THE SUGGESTION ROHAN!
   // handleDropdownChange = (event) => {
   //   this.setState({
-  //     currentEmployee: this.state.employees[event.target.name],
+  //     currentEmployee: this.state.employees[event.target.value],
   //   });
   // };
 
@@ -49,7 +49,7 @@ class Employees extends React.Component {
     //ROHAN'S WAY OF SETTING THE ENTIRE EMPLOYEE OBJECT IN STATE USING ITS INDEX IN THE ARRAY
     //THANKS FOR THE SUGGESTION ROHAN!
     // let dropDownOptions = this.state.employees.map((employee, i) => {
-    //   return <option name={i} >{employee.firstName}</option>;
+    //   return <option value={i} >{employee.firstName}</option>;
     // });
 
     //MAP THROUGH THE ARRAY OF EMPLOYEES AND MAKE A DROPDOWN OPTION FOR EACH ONE.
