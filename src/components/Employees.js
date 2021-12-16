@@ -49,7 +49,7 @@ class Employees extends React.Component {
     //ROHAN'S WAY OF SETTING THE ENTIRE EMPLOYEE OBJECT IN STATE USING ITS INDEX IN THE ARRAY
     //THANKS FOR THE SUGGESTION ROHAN!
     // let dropDownOptions = this.state.employees.map((employee, i) => {
-    //   return <option value={i} >{employee.firstName}</option>;
+    //   return <option value={i}>{employee.firstName}</option>;
     // });
 
     //MAP THROUGH THE ARRAY OF EMPLOYEES AND MAKE A DROPDOWN OPTION FOR EACH ONE.
@@ -66,7 +66,7 @@ class Employees extends React.Component {
           {dropDownOptions}
         </select>
 
-        {/* LINE 73 AND LINE 74 ARE TWO DIFFERENT WAYS OF WRITING THE SAME THING. THEY CHECK TO SEE IF 
+        {/* LINE 74 AND LINE 76 ARE TWO DIFFERENT WAYS OF WRITING THE SAME THING. THEY CHECK TO SEE IF 
         this.state.currentEmployee IS TRUTHY. IF IT IS TRUTHY, DISPLAY this.state.currentEmployee.firstName,
         IF this.state.currentEmployee IS FALSY, DISPLAY null. */}
         <h1>
