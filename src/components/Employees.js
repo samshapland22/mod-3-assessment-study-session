@@ -66,7 +66,7 @@ class Employees extends React.Component {
           {dropDownOptions}
         </select>
 
-        {/* LINE 74 AND LINE 76 ARE TWO DIFFERENT WAYS OF WRITING THE SAME THING. THEY CHECK TO SEE IF 
+        {/* LINES 73-75 AND LINE 76 ARE TWO DIFFERENT WAYS OF WRITING THE SAME THING. THEY CHECK TO SEE IF 
         this.state.currentEmployee IS TRUTHY. IF IT IS TRUTHY, DISPLAY this.state.currentEmployee.firstName,
         IF this.state.currentEmployee IS FALSY, DISPLAY null. */}
         <h1>
