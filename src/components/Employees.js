@@ -71,7 +71,7 @@ class Employees extends React.Component {
         IF this.state.currentEmployee IS FALSY, DISPLAY null. */}
         <h1>
           {this.state.currentEmployee
-            ? this.state.currentEmployee?.firstName
+            ? this.state.currentEmployee.firstName
             : null}{" "}
           {this.state.currentEmployee?.lastName}
         </h1>
