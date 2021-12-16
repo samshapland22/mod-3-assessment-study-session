@@ -32,7 +32,7 @@ class Pets extends React.Component {
       return (
         <div className="pet-card">
           <h2>Name: {pet.name} </h2>
-          <h3>Species: {pet.type} </h3>
+          <h3>Species: {pet.kind} </h3>
           <h3>Breed: {pet.breed} </h3>
         </div>
       );
